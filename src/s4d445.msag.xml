@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>S4D445</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>S4D445: Data Migration Cockpit</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>S4D445</ARBGB>
+     <MSGNR>000</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>S4D445</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>You can only run this program as user TRAIN-##</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>S4D445</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>An error occurred while downloading the data</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>S4D445</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>An error occurred while filling the staging tables</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>S4D445</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Enter the names of all four staging tables</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>S4D445</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Operation Cancelled</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>S4D445</ARBGB>
+     <MSGNR>006</MSGNR>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>S4D445</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Your staging tables have been filled</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>S4D445</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Your staging tables have been filled with customers number &amp;1 to &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>S4D445</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>Airline &amp;1 Does Not Exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>S4D445</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>City &amp;1 Does Not Exist</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>S4D445</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Connection &amp;1 &amp;2 Already Exists</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>S4D445</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Connection &amp;1 &amp;2 Created</TEXT>
+    </T100>
+   </T100>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>NA</ID>
+      <OBJECT>S4D445003</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00005</TXTLINES>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>S4D445003</TDNAME>
+      <TDID>NA</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;CAUSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>The system could not fill your staging tables.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYSTEM_RESPONSE&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;WHAT_TO_DO&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>Ensure that you have entered the names of your staging tables correctly.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>If you have already started the migration, the tables are locked and</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>cannot be filled. If you want to re-fill the tables, open the project in</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>the Data Migration Cockpit and choose Restart Transfer.</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;SYS_ADMIN&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
